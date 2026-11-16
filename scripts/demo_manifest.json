@@ -1,0 +1,26 @@
+[
+  {"path": "fixtures/northwind/NW-1001.csv"},
+  {"path": "fixtures/helios/HE-500.json"},
+  {"path": "fixtures/orion/OR-900.ebc"},
+
+  {"path": "fixtures/helios/HE-801.json"},
+  {"path": "fixtures/orion/OR-951.ebc"},
+  {"path": "fixtures/helios/HE-800.json"},
+  {"path": "fixtures/orion/OR-950.ebc"},
+
+  {"path": "fixtures/northwind/NW-3002.csv"},
+  {"path": "fixtures/northwind/NW-3001.csv"},
+
+  {"path": "fixtures/northwind/NW-1002.csv", "filename": "NW-1001.csv"},
+
+  {"path": "fixtures/helios/HE-501.json"},
+  {"path": "fixtures/orion/OR-901.ebc"},
+
+  {"path": "fixtures/northwind/NW-1001-resend.csv", "filename": "NW-1001 (2).csv"},
+  {"path": "fixtures/northwind/NW-1002.csv"},
+
+  {"path": "fixtures/helios/HE-900.json"},
+  {"path": "fixtures/helios/HE-BROKEN.json"},
+  {"path": "fixtures/orion/OR-MALFORMED.ebc"},
+  {"path": "fixtures/northwind/NW-MALFORMED.csv"}
+]

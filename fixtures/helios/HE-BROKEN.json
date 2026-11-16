@@ -1,0 +1,31 @@
+{
+  "schema": "helios.order/2.1",
+  "transmission": {
+    "id": "T-HE-501",
+    "sentAt": "2026-11-04T09:15:00+01:00",
+    "sender": "HELIOS SUPPLY GMBH"
+  },
+  "message": {
+    "document": "HE-501",
+    "revision": 1,
+    "type": "CORRECTION",
+    "correctionOf": "HE-500",
+    "orderRef": "PO-77",
+    "issued": "2026-11-04",
+    "currency": "EUR",
+    "positions": [
+      {
+        "pos": 1,
+        "sub": 2,
+        "op": "C",
+        "article": {
+          "sku": "HE-SEAL-07",
+          "description": "Dichtung Ø 40"
+        },
+        "quantity": {
+          "value": "750",
+          "unit": "g"
+        },
+        "price": {
+          "unit": "0,02",
+        

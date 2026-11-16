@@ -1,0 +1,42 @@
+{
+  "schema": "helios.order/2.1",
+  "transmission": {
+    "id": "T-HE-900",
+    "sentAt": "2026-11-10T09:15:00+01:00",
+    "sender": "HELIOS SUPPLY GMBH"
+  },
+  "message": {
+    "document": "HE-900",
+    "revision": 1,
+    "type": "CORRECTION",
+    "correctionOf": "HE-000",
+    "issued": "2026-11-10",
+    "currency": "EUR",
+    "positions": [
+      {
+        "pos": 1,
+        "sub": 1,
+        "op": "A",
+        "article": {
+          "sku": "HE-ODD-01",
+          "description": "Sonderteil"
+        },
+        "quantity": {
+          "value": "1",
+          "unit": "pcs"
+        },
+        "price": {
+          "unit": "99,00",
+          "line": "99,00"
+        },
+        "delivery": {
+          "plant": "Werk-2",
+          "date": "2026-11-20"
+        }
+      }
+    ],
+    "totals": {
+      "positions": 1
+    }
+  }
+}

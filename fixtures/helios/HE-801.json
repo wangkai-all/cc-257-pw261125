@@ -1,0 +1,46 @@
+{
+  "schema": "helios.order/2.1",
+  "transmission": {
+    "id": "T-HE-801",
+    "sentAt": "2026-11-09T09:15:00+01:00",
+    "sender": "HELIOS SUPPLY GMBH"
+  },
+  "message": {
+    "document": "HE-801",
+    "revision": 1,
+    "type": "CORRECTION",
+    "correctionOf": "HE-800",
+    "orderRef": "PO-91",
+    "issued": "2026-11-09",
+    "currency": "EUR",
+    "positions": [
+      {
+        "pos": 1,
+        "sub": 1,
+        "op": "C",
+        "article": {
+          "sku": "HE-HOSE-09",
+          "description": "Schlauch 5 m"
+        },
+        "quantity": {
+          "value": "6,5",
+          "unit": "m"
+        },
+        "price": {
+          "unit": "2,00",
+          "line": "13,00"
+        },
+        "delivery": {
+          "plant": "Werk-2",
+          "date": "2026-11-20"
+        },
+        "target": {
+          "ref": "1/1"
+        }
+      }
+    ],
+    "totals": {
+      "positions": 1
+    }
+  }
+}

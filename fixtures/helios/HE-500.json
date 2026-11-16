@@ -1,0 +1,85 @@
+{
+  "schema": "helios.order/2.1",
+  "transmission": {
+    "id": "T-HE-500",
+    "sentAt": "2026-11-02T09:15:00+01:00",
+    "sender": "HELIOS SUPPLY GMBH"
+  },
+  "message": {
+    "document": "HE-500",
+    "revision": 1,
+    "type": "ORDER",
+    "correctionOf": null,
+    "orderRef": "PO-77",
+    "issued": "2026-11-02",
+    "currency": "EUR",
+    "positions": [
+      {
+        "pos": 1,
+        "sub": 1,
+        "op": "A",
+        "article": {
+          "sku": "NW-WIDGET-01",
+          "description": "Widget groß"
+        },
+        "quantity": {
+          "value": "3,500",
+          "unit": "kg"
+        },
+        "price": {
+          "unit": "8,00",
+          "line": "28,00"
+        },
+        "delivery": {
+          "plant": "Werk-2",
+          "date": "2026-11-20"
+        }
+      },
+      {
+        "pos": 1,
+        "sub": 2,
+        "op": "A",
+        "article": {
+          "sku": "HE-SEAL-07",
+          "description": "Dichtung Ø 40"
+        },
+        "quantity": {
+          "value": "500",
+          "unit": "g"
+        },
+        "price": {
+          "unit": "0,02",
+          "line": "10,00"
+        },
+        "delivery": {
+          "plant": "Werk-2",
+          "date": "2026-11-20"
+        }
+      },
+      {
+        "pos": 2,
+        "sub": 1,
+        "op": "A",
+        "article": {
+          "sku": "HE-TUBE-01",
+          "description": "Schlauch 2 m"
+        },
+        "quantity": {
+          "value": "2",
+          "unit": "m"
+        },
+        "price": {
+          "unit": "3,25",
+          "line": "6,50"
+        },
+        "delivery": {
+          "plant": "Werk-2",
+          "date": "2026-11-20"
+        }
+      }
+    ],
+    "totals": {
+      "positions": 3
+    }
+  }
+}
